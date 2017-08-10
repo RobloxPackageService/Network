@@ -102,7 +102,7 @@ runService.Stepped:Connect(function (t)
 	local current = t % SYNC_INTERVAL
 	if current < last then
 		for _, player in pairs(players:GetChildren()) do
-			resync(player)
+			coroutine.wrap(resync)(player)
 		end
 	end
 	last = current
