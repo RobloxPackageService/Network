@@ -1,0 +1,13 @@
+{
+    "Description": "Utility for handling networking operations",
+    "Version": "1.0.0",
+    "Repository": {
+        "Type": "Git",
+        "Source": "https://github.com/RobloxPackageService/Network"
+    },
+    "Author": {
+        "Name": "woot3",
+        "Id": 1451803
+    },
+    "Dependencies": {}
+}
