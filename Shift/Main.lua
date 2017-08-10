@@ -11,8 +11,6 @@ local remote = Instance.new("RemoteFunction")
 remote.Name = "Shift"
 remote.Parent = replicatedStorage
 
-local folder = script.Parent
-
 script.Parent:WaitForChild'Responder'.Parent = starterPlayer:WaitForChild'StarterPlayerScripts'
 
 local module = {}
